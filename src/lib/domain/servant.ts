@@ -29,6 +29,7 @@ export namespace Saber {
     { name: 'ガウェイン', url: 'https://adriaticq.hatenablog.com/entry/2023/08/24/223610' },
     { name: '沖田総司', url: 'https://adriaticq.hatenablog.com/entry/2023/08/24/223636' },
     { name: 'イアソン', url: 'https://adriaticq.hatenablog.com/entry/2023/08/24/223755' },
+    { name: 'シグルド', url: 'https://publish.obsidian.md/fate-dgw-ex/%E3%82%B5%E3%83%BC%E3%83%B4%E3%82%A1%E3%83%B3%E3%83%88/%E3%82%BB%E3%82%A4%E3%83%90%E3%83%BC/%E3%82%B7%E3%82%B0%E3%83%AB%E3%83%89' },
   ].map((servant) => ({
     ...servant,
     id: makeServantId(servant.name, Class),
